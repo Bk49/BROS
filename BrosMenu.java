@@ -112,8 +112,8 @@ public class BrosMenu {
 
             for (int i = 0; i < bookings.size(); i++) {
                 System.out.println((i + 1) + "\t" + bookings.get(i).getFacility().getDescription() + "\t"
-                        + bookings.get(i).getBookingDate().toString() + "\t"
-                        + bookings.get(i).getStartDate().toString() + "\t" + bookings.get(i).getDuration() + "\t"
+                        + bookings.get(i).getBookingDate() + "\t"
+                        + bookings.get(i).getStartDate() + "\t" + bookings.get(i).getDuration() + "\t"
                         + bookings.get(i).getStudent().getName());
             }
         }
